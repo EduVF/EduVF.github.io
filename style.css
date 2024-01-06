@@ -1,31 +1,38 @@
+:root {
+    --r: #e49;
+    --o: #f86;
+    --y: #ff7;
+    --g: #5b7;
+    --b: #29b;
+}
+
 html {
     font-family: monospace;
+    font-size: 16pt;
+
     background-color: black;
     color: white;
 }
 
 body {
-    min-height: 100vh;
     margin: 0;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-article {
-    width: 60rem;
+nav {
     padding: 1rem;
+    border-bottom: white 1px solid;
 }
 
-h1 {
-    font-size: 3rem;
-}
-
-h2 {
-    font-size: 2rem;
+main {
+    max-width: 900px;
+    padding: 1rem;
+    margin: 0 auto;
 }
 
 a {
     color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
 }
