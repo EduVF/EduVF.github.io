@@ -24,7 +24,7 @@ nav {
 }
 
 main {
-    max-width: 900px;
+    max-width: 1200px;
     padding: 1rem;
     margin: 0 auto;
 }
@@ -35,4 +35,16 @@ a {
 
 a:hover {
     text-decoration: none;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, auto));
+    gap: 1rem;
+}
+
+article {
+    min-height: 4rem;
+    padding: 1rem;
+    border: 1px solid white
 }
