@@ -7,8 +7,8 @@
 }
 
 html {
-    font-family: monospace;
-    font-size: 16pt;
+    font-family: system-ui;
+    font-size: 14pt;
 
     background-color: black;
     color: white;
