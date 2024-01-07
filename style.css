@@ -19,6 +19,8 @@ body {
 }
 
 nav {
+    display: flex;
+    gap: 1rem;
     padding: 1rem;
     border-bottom: white 1px solid;
 }
