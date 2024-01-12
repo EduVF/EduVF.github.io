@@ -26,7 +26,7 @@ nav {
 }
 
 main {
-    max-width: 1200px;
+    max-width: 900px;
     padding: 1rem;
     margin: 0 auto;
 }
@@ -49,5 +49,6 @@ section {
 article {
     min-height: 4rem;
     padding: 1rem;
+    margin: 1rem 0;
     border: 1px solid white
 }
