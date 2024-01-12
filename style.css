@@ -40,6 +40,11 @@ a:hover {
     color: white;
 }
 
+img,
+iframe {
+    max-width: 100%;
+}
+
 section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(16rem, auto));
