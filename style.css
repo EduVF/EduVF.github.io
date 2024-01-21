@@ -4,6 +4,8 @@
     --y: #ff7;
     --g: #5b7;
     --b: #29b;
+
+    --link: white;
 }
 
 html {
@@ -32,12 +34,14 @@ main {
 }
 
 a {
-    color: inherit;
+    color: var(--link);
+    padding: .1rem;
 }
 
 a:hover {
-    background-color: black;
-    color: white;
+    text-decoration: none;
+    background-color: var(--link);
+    color: black;
 }
 
 img,
