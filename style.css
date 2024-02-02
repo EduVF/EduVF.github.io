@@ -49,6 +49,10 @@ iframe {
     max-width: 100%;
 }
 
+audio {
+    width: 100%;
+}
+
 section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(16rem, auto));
@@ -60,4 +64,28 @@ article {
     padding: 1rem;
     margin: 1rem 0;
     border: 1px solid white
+}
+
+figure {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+th,
+td {
+    padding: .5rem;
+    border: #ffffff88 1px solid;
+}
+
+th {
+    border-bottom: #ffffff88 3px solid;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff11;
 }
