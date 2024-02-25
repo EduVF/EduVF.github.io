@@ -49,6 +49,11 @@ iframe {
     max-width: 100%;
 }
 
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
 audio {
     width: 100%;
 }
