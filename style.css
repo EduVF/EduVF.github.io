@@ -27,6 +27,14 @@ nav {
     border-bottom: white 1px solid;
 }
 
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: gray;
+    border-top: white 1px solid;
+    margin-top: 2rem;
+}
+
 main {
     max-width: 900px;
     padding: 1rem;
